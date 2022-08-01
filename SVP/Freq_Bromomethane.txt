@@ -1,0 +1,17 @@
+! BP RI OPT FREQ def2-SVP def2/J NormalPrint Grid4  NormalSCF 
+%scf
+	MaxIter 125
+	CNVDIIS 1
+	CNVSOSCF 1 
+end
+%output
+	print[p_mos] true
+end
+
+* xyz 0 1
+   C       -3.96024        0.96040        0.00000
+  Br       -2.89024        0.96040        0.00000
+   H       -4.31691        0.08797       -0.50651
+   H       -4.31691        1.83527       -0.50229
+   H       -4.31691        0.95797        1.00880
+*

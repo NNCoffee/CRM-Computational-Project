@@ -1,0 +1,20 @@
+! BP RI OPT FREQ def2-QZVPP def2/J NormalPrint Grid4  NormalSCF 
+%scf
+	MaxIter 125
+	CNVDIIS 1
+	CNVSOSCF 1 
+end
+%output
+	print[p_mos] true
+end
+
+* xyz 0 1
+   C       -4.02933        1.13608        0.10198
+  Br       -2.05825        1.28741        0.18988
+   C       -4.47607       -0.11979       -0.62714
+   H       -4.36850        2.06049       -0.40206
+   H       -4.36848        1.15668        1.15468
+   H       -4.11054       -0.13487       -1.67307
+   H       -5.58687       -0.15692       -0.64867
+   H       -4.11054       -1.03558       -0.12163
+*

@@ -1,0 +1,13 @@
+# avogadro generated ORCA input file 
+# Basic Mode
+# 
+! BP RI OPT FREQ def2-SVP def2-SVP/J 
+
+* xyz 0 1
+   C       -4.59300       -0.99363       -0.34637
+  Br       -3.52300       -0.99363       -0.34637
+   H       -4.94966       -0.00572       -0.55062
+   H       -4.94967       -1.31071        0.61131
+   H       -4.94967       -1.66448       -1.09981
+*
+
